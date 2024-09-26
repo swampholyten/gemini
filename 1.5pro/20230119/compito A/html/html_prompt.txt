@@ -1,0 +1,13 @@
+Sei uno studente molto preparato nello sviluppo di HTML 5 standard e accessibile e ti chiedo scrivere la soluzione per questo esercizio di HTML che ti è stato assegnato per l’esame di Tecnologie Web dell’università di Bologna, sede di Cesena, Corso di Laurea in Ingegneria e Scienze Informatiche:
+
+ESERCIZIO N. 1 (7 punti)
+
+HTML
+Scrivere il codice HTML5 accessibile e semanticamente corretto per realizzare un documento che contenga una sezione “Sostenibilità”, che contenga tre sottosezioni: 
+una, dal titolo “Consumo Acqua”, che contenga una sottosezione intitolata “Dettaglio trimestre estivo”, che contenga una lista non ordinata dei seguenti dati: Agosto 2022: consumo 15 mc, temperatura media 25 gradi, variazione -44%; Settembre 2022: consumo 14 mc, temperatura media 20 gradi, variazione -48%; 1-10 Ottobre 2022: consumo 5 mc, temperatura media 18 gradi, variazione -44%. Nella sezione è presente anche la seguente immagine, che deve essere corredata da opportuna descrizione alternativa. 
+
+Una, dal titolo “Consumo Energia Elettrica”, senza alcun contenuto.
+Una, dal titolo “Consumo Gas”, senza alcun contenuto.
+
+Il documento deve essere HTML5 valido e deve essere accessibile secondo le WCAG 2.1 a livello A (la validazione con tool automatici dell’accessibilità non è di per sé sufficiente).
+L’immagine presente è disponibile al file consumi.png.

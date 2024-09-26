@@ -1,0 +1,38 @@
+Sei uno studente molto preparato nello sviluppo di Javascript accessibile e ti chiedo di generare la soluzione per questo esercizio di Javascript che ti è stato assegnato per la prova scritta d’esame di Tecnologie Web dell’università di Bologna, sede di Cesena, Corso di Laurea in Ingegneria e Scienze Informatiche. Di seguito trovi il testo del quesito Javascript e, successivamente, il contenuto del file esercizio_javascript.html che viene richiesto:
+
+
+Javascript
+
+Dato il file html 'esercizio_javascript.html' in allegato, scrivere il codice JavaScript in modo tale che:
+Al click sul bottone “Genera Tabella” si deve controllare che nei campi di input siano presenti due numeri interi positivi. In caso di errore, visualizzare un messaggio nel paragrafo all’interno del form. In caso di numeri corretti, si deve generare una tabella con un numero di righe e colonne pari a quelle specificate dall’utente. La prima riga e la prima colonna devono essere composte da celle di intestazione contenenti i testi R1, R2, … RN-1 per le righe e C1, C2, … CM-1 per le colonne. La prima cella della tabella deve essere vuota (quella in alto a sinistra). Le celle non di intestazione devono essere riempite da stringhe casuali di 10 caratteri alfabetici. 
+Al click su una cella della tabella, la cella deve essere considerata selezionata, il suo sfondo deve diventare del colore #F00 e il contenuto della cella deve comparire nella lista non ordinata “Lista Elementi Selezionati”. Se viene cliccata una cella già selezionata, questa deve diventare non selezionata. Il colore di sfondo sarà rimosso e il suo contenuto dovrà essere rimosso dalla lista non ordinata. 
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Compito</title>
+</head>
+<body>
+	<main>
+		<form action="#">
+			<p></p>
+            <label>Numero Righe
+                    <input type="number" name="numerorighe" />
+			</label>
+			<label>Numero Colonne
+				<input type="number" name="numerocolonne" />
+			</label>
+			<button>Genera Tabella</button>
+		</form>
+		<div>
+			<p>Lista Elementi Selezionati:</p>
+			<ul>
+			</ul>
+		</div>
+		<table>
+		</table>
+	</main>
+	<script src="soluzione.js" type="text/javascript"></script>
+</body>
+</html>

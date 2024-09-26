@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  color: black;
+}
+
+h2 {
+  background-color: darkorange;
+  color: white;
+  font-size: 180%;
+  text-align: center;
+  border: 2px dotted black;
+  border-radius: 5px;
+}
+
+h3 {
+  font-style: italic;
+  color: darkorange;
+  font-size: 140%;
+  padding-left: 50px;
+}
+
+img {
+  border: 5px dotted darkorange;
+  box-shadow: 5px 5px 5px orange;
+}

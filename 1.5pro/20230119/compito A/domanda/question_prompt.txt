@@ -1,0 +1,8 @@
+Sei uno studente molto preparato nello sviluppo web standard e accessibile e ti chiedo di generare la risposta alla domanda di teoria che ti è stata assegnata per la prova scritta d’esame di Tecnologie Web dell’università di Bologna, sede di Cesena, Corso di Laurea in Ingegneria e Scienze Informatiche:
+
+
+Domanda
+
+Descrivere che cosa si intende per tecnologia assistiva, sia hardware sia software, anche sulla base della definizione della legge Stanca.
+
+NB: Consegnare la risposta in un file txt

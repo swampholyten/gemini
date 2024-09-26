@@ -1,0 +1,62 @@
+Sei uno studente molto preparato nello sviluppo di CSS standard e accessibile e ti chiedo di generare la soluzione per questo esercizio di CSS che ti è stato assegnato per la prova scritta d’esame di Tecnologie Web dell’università di Bologna, sede di Cesena, Corso di Laurea in Ingegneria e Scienze Informatiche:
+
+
+CSS
+
+Dato il file html relativo all’esercizio N. 1, realizzare il file .css (esterno), tenendo in considerazione quanto segue:
+Tutti i font devono avere lo stesso font-family, che deve essere Arial.
+Il colore del testo deve essere nero.
+I titoli delle sezioni di primo livello devono avere background darkorange, testo di colore white, dimensione del font pari al 180%, allineamento al centro. I bordi dei titoli devono essere di tipo dotted, spessore 2 px, colore black, con arrotondamento negli angoli.
+I titoli delle sottosezioni devono essere in italico, colore darkorange, dimensione pari al 140%. L’allineamento è a sinistra, con un padding sinistro di 50px.
+L’immagine deve avere un bordo di tipo dotted, spessore 5 px, colore darkorange, con una ombreggiatura di colore orange, spostamento laterale e inferiore di 5px e una sfocatura di 5 pixel. 
+
+
+
+Di seguito trovi il codice HTML5 accessibile e semanticamente corretto per il documento richiesto:
+
+```html
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sostenibilità</title>
+</head>
+<body>
+
+  <main>
+    <section aria-label="Sostenibilità">
+      <h1>Sostenibilità</h1>
+
+      <section aria-label="Consumo Acqua">
+        <h2>Consumo Acqua</h2>
+
+        <section aria-label="Dettaglio trimestre estivo">
+          <h3>Dettaglio trimestre estivo</h3>
+          <ul>
+            <li><strong>Agosto 2022</strong>: consumo 15 mc, temperatura media 25 gradi, variazione -44%</li>
+            <li><strong>Settembre 2022</strong>: consumo 14 mc, temperatura media 20 gradi, variazione -48%</li>
+            <li><strong>1-10 Ottobre 2022</strong>: consumo 5 mc, temperatura media 18 gradi, variazione -44%</li>
+          </ul>
+          <figure>
+            <img src="consumi.png" alt="Grafico che mostra l'andamento del consumo di acqua nel trimestre estivo.">
+            <figcaption>Grafico del consumo di acqua nel trimestre estivo.</figcaption>
+          </figure>
+        </section>
+      </section>
+
+      <section aria-label="Consumo Energia Elettrica">
+        <h2>Consumo Energia Elettrica</h2>
+      </section>
+
+      <section aria-label="Consumo Gas">
+        <h2>Consumo Gas</h2>
+      </section>
+    </section>
+  </main>
+
+</body>
+</html>
+```
+
+
